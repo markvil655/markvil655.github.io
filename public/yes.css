@@ -1,0 +1,28 @@
+
+.kilig img{
+				width: 200px;
+}
+
+.kilig{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap:3em;
+}
+video{
+	height: 500px;
+	width: 500px;
+}
+@media (max-width: 500px) {
+	.kilig {
+		height: auto;
+		width: auto;
+}
+}
+@media (max-width: 500px) {
+	video{
+		height: 200px;
+		width: auto;
+	}
+}

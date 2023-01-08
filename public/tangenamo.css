@@ -1,0 +1,49 @@
+body{
+    background: white;
+    width: auto;
+    height: auto;
+}
+.tangenamo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+
+}
+video{
+    height: 400px;
+    width: auto;
+}
+.weh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 200px;
+    width: auto;
+    
+    
+}
+.weh img{
+    position: relative;
+    height: auto;
+    width: auto;
+    
+    
+    
+}
+@media (max-width: 500px) {
+    video {
+        height: 200px;
+        width: 200px;
+        }
+    }
+    .weh img{
+        position: relative;
+        height: 250px;
+        width: auto;
+        top: 50px;
+        
+}
