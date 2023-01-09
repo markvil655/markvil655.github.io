@@ -383,6 +383,18 @@ body{
 		height: auto;
 		width: auto;
 	}
+	.ask{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.btn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
 	#btn3{
 		position: relative;
 		align-items: center;
