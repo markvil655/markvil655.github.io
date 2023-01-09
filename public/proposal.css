@@ -374,7 +374,7 @@ body{
 	
 }
 
-@media (max-width: 500px){
+@media (max-width: 320px){
 	#hands{
 		top: 150px;
 		
@@ -382,6 +382,11 @@ body{
 	body{
 		height: auto;
 		width: auto;
+	}
+	#btn3{
+		position: relative;
+		align-items: center;
+		display: flex;
 	}
 	#btt12{
 		position: relative;
