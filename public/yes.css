@@ -1,6 +1,10 @@
+body{
+	height: auto;
+	width: auto;
+}
 
 .kilig img{
-				width: 200px;
+	width: 200px;
 }
 
 .kilig{
