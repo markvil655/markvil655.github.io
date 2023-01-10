@@ -19,9 +19,11 @@ function function1() {
   return true;
 }
 function Mail() {
-  if (document.getElementById("Name").value == "") {
+  if (document.getElementById("Name", "Email").value == "") {
     event.preventDefault();
     Name.style.borderColor = 'red';
+    Email.style.borderColor = 'red';
+    document.getElementById("id").style.color = "red";
     
   } else {
     event.preventDefault();
@@ -31,17 +33,22 @@ function Mail() {
     button1.style.display = 'none';
   }
   
-  if (document.getElementById("Name").value == "") {
+  if (document.getElementById("Name", "Email").value == "") {
     event.preventDefault();
-  } else {
+  }
+  else {
     var params = {
       from_name: document.getElementById("Name").value,
+      Email: document.getElementById("Email").value,
+
     };
     const serviceID = "service_2w5savg";
     const templateID = "template_gb5cnmq";
 
     emailjs.send(serviceID, templateID, params).then((res) => {
       document.getElementById("Name").value = "";
+      document.getElementById("Email").value = "";
+
       event.preventDefault();
       
       console.log(res);

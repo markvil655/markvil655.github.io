@@ -374,15 +374,21 @@ body{
 	
 }
 
-@media only screen and (max-width: 314px){
+@media only screen and (max-width: 414px){
 	}
 	body{
 		height: auto;
 		width: auto;
+		background-image: url("./img/d395e034b2ef3dd42d2751550a5f4018.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 	}
 	.ask{
 		width: 190px;
 		height: 150;
+		color: white ;
 	}
 	
 	
@@ -393,8 +399,8 @@ body{
 	}
 	#btt12{
 		position: relative;
-		right: 100px;
-		bottom: 100px;
+		right: 50px;
+		bottom: 190px;
 		
 	}
 	#bbtt3{
