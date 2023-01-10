@@ -5,6 +5,7 @@ body{
 	font-family: Poppins;
 	width: auto;
 	height: auto;
+	text-decoration: none;
 }
 .g1{
 	
@@ -187,6 +188,10 @@ body{
 	font-family: Poppins;
 	border: 2px solid black;
 	position: relative;
+	text-decoration: underline;
+	text-decoration-color: white;
+	background-color: white;
+	
 }
 #btn3:hover {
 	cursor: pointer;
@@ -222,6 +227,10 @@ body{
 	font-size: 14px;
 	color: red;
 	font-weight: bold;
+
+}
+p1{
+	color: white;
 
 }
 
