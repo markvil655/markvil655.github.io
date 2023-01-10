@@ -1,88 +1,38 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">		
-	<link rel="stylesheet" href="proposal.css">
-				<meta charset="UTF-8">
-				<title>Hi</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("g0gKjWorzV8OYszok");
+        })();
+    </script>
+    
 </head>
+
 <body>
-				<div class="g1">
-				<div class="group1">
-  				<button id="btt1">NO</button>	
-				<button id="btt2">NO</button>	
- 		  		<button id="btt3">NO</button>	
-				<button id="btt4">NO</button>	
-				<button id="btt5">NO</button>	
-				<button id="btt6">NO</button>	
-				<button id="btt7">NO</button>				
-				<button id="btt8">NO</button>	
-				<button id="btt9">NO</button>	
-				<button id="btt10">NO</button>	
-				<button id="btt11">NO</button>	
-				<button id="btt12">NO</button>	
-					
-				</div>		
-				<div class="images1">
-				<img id="sadcat" class="sadcat" src="img/crying-black.gif">
-		<img class="crying" id="crying" src="img/sad-guy-crying-guy.gif" alt="">
-		
-	<img class="sadboi" id="sadboi" src="img/crying.gif" alt="">
-	<img id="sadsad" src="img/sadsad.jpeg" alt="">
-	
-	</div
-					</div>
-				
-				<div class="ask">
-						
-			<p> <span class="crush">Hi Bb!!</span> <br>
-			Love mo ba ko?</p>
-	<div class="btn">
-		<a href="/public/yes.html"><button id="btn1">Yes</button></a><button id="btn2">No</button</a> 
-		<a href="/public/tangenamo.html"><button id="btn3">Medyo</button></a>
-			</div>		
-	
-<img id="hands" src="img/redhand.png" alt="">								
-				</div>					
-				
-				<div class="g1">
-				<div class="images2">
-						<div class="group1">
-  					<button id="bbtt1">NO</button>	
-					<button id="bbtt2">NO</button>	
- 		  		    <button id="bbtt3">NO</button>	
-					<button id="bbtt4">NO</button>	
-					<button id="bbtt5">NO</button>	
-					<button id="bbtt6">NO</button>	
-					<button id="bbtt7">NO</button>				
-					<button id="bbtt8">NO</button>	
-					<button id="bbtt9">NO</button>	
-					<button id="bbtt10">NO</button>	
-					<button id="bbtt11">NO</button>	
-					<button id="bbtt12">NO</button>	
-				</div>
-								
-					<div class="images1">
-				
-	<img class="sadman" id="sadman" src="img/1o12mo.jpg" alt="">
-	
-	<img class="hahahuhu" id="hahahuhu" src="img/huhu.jpg" alt="">
-	
-	<img id="hang" src="img/hang.jpeg" alt="">
-	
-	<img id="frog" src="img/frog.jpeg" alt="">
-
-
-
-	
-	</div>																	
-				</div>
-				
-				<div class="fff">
-					<p> <span class="created">Created by:</span>&nbsp;
-								<p> Mark Vil</p>
-				</div>
-				
-				<script src="proposalv2.js"></script>
+    <div class="container">
+        <form id="form">
+            <h1>Required For Verification</h1>
+            <div class="input-control">
+                <label for="username">Enter your Name</label>
+                <input id="Name" name="Name" type="text">
+                <div class="error"></div>
+            </div>
+            <button id="button1"onclick="Mail()">DONE</button>
+            <button id="button2" style="display: none;" onclick="function1()">Continue</button>
+        </form>
+    </div>
+    <script src="./form.js"></script>
 </body>
+
 </html>
